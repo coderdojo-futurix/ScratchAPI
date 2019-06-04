@@ -218,11 +218,11 @@ List<ScratchUser> users = Scratch.getUsers(limit, offset); // Max limit is 20
 ### Exceptions<a name="exceptions"></a>
 List of exceptions:
 ```java
-edu.mit.scratch.exceptions.ScratchException
-edu.mit.scratch.exceptions.ScratchLoginException
-edu.mit.scratch.exceptions.ScratchUserException
-edu.mit.scratch.exceptions.ScratchProjectException
-edu.mit.scratch.exceptions.ScratchStatisticalException
+ScratchException
+ScratchLoginException
+ScratchUserException
+ScratchProjectException
+ScratchStatisticalException
 ```
 
 
